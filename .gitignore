@@ -1,0 +1,22 @@
+# IDE / editor
+.idea/
+.omo/
+
+# macOS
+.DS_Store
+
+# Go build artifacts
+/redis-rto-rpo
+/bin/
+/dist/
+
+# Test / coverage output
+*.test
+*.out
+coverage.*
+coverage.out
+
+# Generated test reports / local secrets
+result*.json
+report*.json
+.env
